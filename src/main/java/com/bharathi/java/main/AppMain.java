@@ -1,6 +1,7 @@
 package com.bharathi.java.main;
 
 import com.bharathi.java.io.FileExample;
+import com.bharathi.java.io.PathExample;
 
 public final class AppMain {
 
@@ -13,6 +14,9 @@ public final class AppMain {
 		FileExample.is();
 		FileExample.rename();
 		FileExample.delete();
+		
+		PathExample.get();
+		PathExample.is();
 	}
 
 }
