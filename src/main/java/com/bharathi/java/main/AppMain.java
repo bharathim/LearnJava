@@ -6,8 +6,13 @@ public final class AppMain {
 
 	public static void main(String[] args) {
 		System.out.println("Hello Java");
-		FileExample fe = new FileExample();
-		fe.write();
+		FileExample.create();
+		FileExample.can();
+		FileExample.get();
+		FileExample.prop();
+		FileExample.is();
+		FileExample.rename();
+		FileExample.delete();
 	}
 
 }
